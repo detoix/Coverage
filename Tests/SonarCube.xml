@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <coverage version="1">
-  <file path="/home/detoix/Software/Coverage/AcadExtensions/Commands.cs">
+  <file path="/AcadExtensions/Commands.cs">
     <lineToCover lineNumber="102" covered="false" />
     <lineToCover lineNumber="103" covered="false" />
     <lineToCover lineNumber="104" covered="false" />

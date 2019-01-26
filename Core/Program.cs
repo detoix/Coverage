@@ -10,7 +10,10 @@ namespace Core
 {
     public class Program
     {
+        //+++ b/AcadExtensions/Commands.cs => AcadExtensions/Commands.cs
         const string FileNamePattern = @"(?<=\+\+\+ b\/).+";
+        //@@ -17,0 +18,2 @@ namespace AcadExtensions => -17,0 +18,2
+        //@@ -20,0 +23 @@ namespace AcadExtensions => -20,0 +23
         const string LineNumbersPattern = @"(?<=\@\@ )-[0-9]+(,[0-9]+)? \+[0-9]+(,[0-9]+)?(?= \@\@)";
         //-29,0 +30,3 => 30,3
         //-29,0 +30 => 30
