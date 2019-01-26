@@ -1,0 +1,27 @@
+diff --git a/AcadExtensions/Commands.cs b/AcadExtensions/Commands.cs
+index 428dbfb..fbcb5a8 100644
+--- a/AcadExtensions/Commands.cs
++++ b/AcadExtensions/Commands.cs
+@@ -17,0 +18,2 @@ namespace AcadExtensions
++        public string NewProperty { get; set; }
++
+@@ -20,0 +23 @@ namespace AcadExtensions
++            var result = 0 == 0;
+@@ -82,0 +86,4 @@ namespace AcadExtensions
++            if (default(string) is null)
++            {
++
++            }
+@@ -84,0 +92,5 @@ namespace AcadExtensions
++
++        public static string AsString(this object item)
++        {
++            return item.ToString();
++        }
+diff --git a/UnitTests/TestFixture.cs b/UnitTests/TestFixture.cs
+index f37bd35..fe54087 100644
+--- a/UnitTests/TestFixture.cs
++++ b/UnitTests/TestFixture.cs
+@@ -12 +12 @@ namespace UnitTests
+-            //new Commands().AsString();
++            new Commands().AsString();

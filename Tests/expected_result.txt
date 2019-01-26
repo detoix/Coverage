@@ -1,0 +1,7 @@
+AcadExtensions/Commands.cs	23	covered	False
+AcadExtensions/Commands.cs	86	covered	False
+AcadExtensions/Commands.cs	87	covered	False
+AcadExtensions/Commands.cs	89	covered	False
+AcadExtensions/Commands.cs	94	covered	True
+AcadExtensions/Commands.cs	95	covered	True
+AcadExtensions/Commands.cs	96	covered	True
